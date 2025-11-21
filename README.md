@@ -8,3 +8,5 @@ Projeto Challenge da trilha Data Science - Turma 9 do Programa ONE (AluraLatam +
 * Categorias mais vendidas
 * Avaliações dos clientes
 * Produtos mais vendidos e frete médio.
+
+![tt](/graphs/faturamento_total_por_loja.png)
