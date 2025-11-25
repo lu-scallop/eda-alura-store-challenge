@@ -45,17 +45,21 @@ Percentual das categorias
 ![Categoria percentual](/graphs/percentual_categoria.png)
 
 #### 3. Produtos mais ou menos vendidos
-Decidi investigar os 10 produtos mais vendidos para facilitar a visualização
+Decidi investigar os 10 produtos mais e menos vendidos para facilitar a visualização.
+
+* Mais vendidos:
 ![Mais vendidos](/graphs/produtos_mais_vendidos.png)
+
+* Menos vendidos:
 ![Menos vendidos](/graphs/produtos_menos_vendidos.png)
 
 A participação na venda dos produtos mais vendidos:
 
-![Participação mais vendidos](/graphs/produtos_mais_vendidos.png)
+![Participação mais vendidos](/graphs/vendas_produto.png)
 
 A participação na venda dos produtos menos vendidos:
 
-![Participação menos vendidos](/graphs/produtos_menos_vendidos.png)
+![Participação menos vendidos](/graphs/vendas_mais_baixas.png)
 
 
 ### 4. Frete Médio
