@@ -29,46 +29,46 @@ A investigação foi guiada pelas seguintes métricas-chave: Faturamento, Catego
 ### 1. Faturamento Total por Loja
 A primeira etapa foi consolidar os dados e verificar a receita total gerada por cada unidade. A análise revelou uma disparidade de desempenho.
 
-![Gráfico de Faturamento Total](graphs/faturamento_total_por_loja.png)
+![Gráfico de Faturamento Total](/graphs/faturamento_loja.png)
 
 *Como observado no gráfico, a Loja 4 apresenta o menor faturamento acumulado, com uma diferença de mais de R$ 150 mil em relação à loja líder.*
 
 ### 2. Desempenho por Categoria
 Investigando a fundo, foi verificado se a baixa performance se repetia nas principais categorias de produtos.
 
-![Gráfico de Vendas por Categoria](graphs/faturamento_por_categoria_de_produto.png)
+![Gráfico de Vendas por Categoria](/graphs/categoria_de_produto.png)
 
 *A Loja 4 demonstrou desempenho inferior nas categorias "carro-chefe" da empresa, como Eletrônicos e Eletrodomésticos.*
 
 Percentual das categorias
 
-![Categoria percentual](/graphs/percentual_vendas_de_categoria.png)
+![Categoria percentual](/graphs/percentual_categoria.png)
 
 #### 3. Produtos mais ou menos vendidos
 Decidi investigar os 10 produtos mais vendidos para facilitar a visualização
-![Mais vendidos](/graphs/top_10_produtos_mais_vendidos.png)
-![Menos vendidos](/graphs/top_10_produtos_menos_vendidos.png)
+![Mais vendidos](/graphs/produtos_mais_vendidos.png)
+![Menos vendidos](/graphs/produtos_menos_vendidos.png)
 
 A participação na venda dos produtos mais vendidos:
 
-![Participação mais vendidos](/graphs/vendas_produto_por_loja.png)
+![Participação mais vendidos](/graphs/produtos_mais_vendidos.png)
 
 A participação na venda dos produtos menos vendidos:
 
-![Participação menos vendidos](/graphs/vendas_mais_baixas_produtos_por_loja.png)
+![Participação menos vendidos](/graphs/produtos_menos_vendidos.png)
 
 
 ### 4. Frete Médio
 Uma descoberta interessante ocorreu ao cruzar os dados de logística com o valor dos produtos. Inicialmente, notou-se que a Loja 4 possuía o frete médio mais barato.
 
-![Relação Venda x Frete](graphs/relação_venda_frete.png)
+![Relação Venda x Frete](/graphs/relacao_venda_frete.png)
 
 *A análise de dispersão confirmou uma forte correlação linear: produtos mais caros têm fretes mais caros. Concluiu-se que a Loja 4 tem o frete mais barato não por eficiência, mas porque vende produtos de menor valor agregado (Ticket Médio mais baixo), o que impacta diretamente seu faturamento total.*
 
 ### 5. Avaliação dos Clientes (Satisfação)
 Apesar do menor desempenho financeiro, a satisfação do cliente não é um problema crítico para a Loja 4.
 
-![Violin Plot de Avaliações](graphs/avaliacao_por_loja.png)
+![Avaliações](/graphs/avaliacao.png)
 
 *A distribuição das notas mostra que a Loja 4 mantém uma média de avaliações competitiva, superando inclusive a loja de maior faturamento em satisfação.*
 
